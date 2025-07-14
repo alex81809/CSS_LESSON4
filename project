@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Chocolate Chip Cookie Dough Cupcake Recipe
+        </title>
+        <style>
+            /* Body */
+            body {
+                font-family: sans-serif;
+                background-color: #f0f0f0;
+                background-image: url("https://woodenspooncookies.com/wp-content/uploads/2022/09/WSCD-22SM-BLOG-CookieCoreCupcakes-R01-8859-min-1.webp");
+                background-position: center;
+                background-size: 1550px;
+                background-repeat: no-repeat;
+                color: #784444;
+                padding: 10px;
+            }
+
+            /* Headings */
+            h1 {
+                font-size: 20px;
+                text-align: center;
+                color: #c68c60;
+                margin-bottom: 10px;
+            }
+
+            /* Paragraphs */
+            .intro-p {
+                font-size: 14px;
+                font-style: italic;
+                color: rgb(152, 112, 73);
+                margin-bottom: 25px;
+            }
+
+            .intro-p::first-letter {
+                font-size: 20px;
+                color: rgb(108, 77, 47);
+                font-style: italic;
+            }
+
+            /* Card */
+            .c {
+                width: 520px;
+                height: 630px;
+                margin: 10px auto;
+                padding: 10px;
+                background-color: #ffe9ce;
+                border-radius: 5px;
+                box-shadow: 0px 1px 3px rgba (0,0,0,0.1);
+            }
+
+            /* List of Content */
+            .content {
+                padding: 8px;
+                background-color: rgb(82, 60, 38);
+                border-radius: 4px;
+                margin-bottom: 8px;
+            }
+
+            .one {
+                padding: 1px;
+                border-radius: 5px;
+                background-color: rgb(82, 60, 38);
+            }
+
+            
+            /* Listings */
+            ul {
+                list-style-type: none;
+                padding-left: 0px;
+                margin-bottom: 10px;
+            }
+
+            li {
+                padding: 3px 0px;
+                font-weight: bold;
+                font-size: 15px;
+                color: rgb(121, 83, 45);
+            }
+
+            li:last-child {
+                margin-bottom: 20px;
+                color:rgb(111, 75, 40);
+            }
+
+            dl {
+                list-style-type: none;
+                padding-left: 0px;
+                margin-bottom: 20px;
+                color:#553737;
+            }
+
+
+            /* Buttons */
+            button, input {
+                padding: 5px 10px;
+                border-radius: 5px;
+                border: 1px solid #cccccc;
+                margin-right: 5px;
+                margin-bottom: 8px
+            }
+
+            button {
+                background-color: #007bff;
+                color: #ffffff;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #5facff;
+            }
+
+            button:active {
+                color: rgb(255, 0, 0);
+            }
+            
+            /* Other */
+            .empty {
+                border: 1px dashed #aaaaaa;
+                height: 20px;
+                margin-bottom: 8px;
+            }
+
+            .target {
+                padding: 8px;
+                border: 1px solid #eeeeee;
+                background-color: #f9f9f9;
+                margin-top: 8px;
+            }
+            
+            input:focus {
+                background-color: rgb(219, 246, 255);
+                border-color: rgb(0, 0, 147);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="c">
+            <!--Search Bar-->
+            <button>Search</button>
+            <input type="text" placeholder="...">
+
+            <!--Title-->
+            <h1>Chocolate Chip Cookie Dough Cupcake</h1>
+
+            <!--Introduction-->
+            <p class="intro-p">When you need a mind-blowing treat for any cookie dough lover, YOU MUST make these Cookie Dough Cupcakes. Stuffed with
+            cookie dough and topped with an indulgent chocolate chip cookie dough frosting they are the ultimate treat for any
+            occasion.</p>
+
+            <!--Content-->
+            <div class="content">
+                <span style="color:rgb(152, 112, 73)">Cards content</span>
+            </div>
+
+            <ol>
+                <li>Ingredients</li>
+                <li>Instructions</li>
+            </ol>
+
+            <!--Ingredients-->
+            <div class = "one" >
+                <p style="color:rgb(152, 112, 73);"> Ingredients </p>
+            </div>
+            
+            <!--List-->
+            <ul>
+                <li> Item 1</li>
+                <li> Item 2</li>
+                <li> Item 3</li>
+            </ul>
+
+
+            <div class="one">
+                <p style="color:rgb(152, 112, 73);"> Instructions </p>
+            </div>
+
+            <!--List-->
+            <ul>
+                <li> Item 1</li>
+                <li> Item 2</li>
+                <li> Item 3</li>
+            </ul>
+
+
+
+            <!--Link-->
+            <a href="https://tidymom.net/cookie-dough-cupcakes-with-cookie-dough-frosting-recipe/"> Source</a>
+    </body>
+</html>
